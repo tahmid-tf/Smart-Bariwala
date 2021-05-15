@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Smart Bariwala</string>
+
+    <string name="security_step">This is a security step. You need to do it every time for accessing the next page. This will prevent others to get access in your data</string>
+
+    <string name="warning_step">**** Note: Please insert the phone number carefully and correctly. The number should be inserted like this format : 0182******1. If number and password already exists, you wont be able to move to next page ****</string>
+
+    <string-array name="months">
+
+        <item>Access(Renter)</item>
+        <item>L1_U1</item>
+        <item>L1_U2</item>
+        <item>L1_U3</item>
+        <item>L1_U4</item>
+
+
+        <item>L2_U1</item>
+        <item>L2_U2</item>
+        <item>L2_U3</item>
+        <item>L2_U4</item>
+
+
+        <item>L3_U1</item>
+        <item>L3_U2</item>
+        <item>L3_U3</item>
+        <item>L3_U4</item>
+
+
+        <item>L4_U1</item>
+        <item>L4_U2</item>
+        <item>L4_U3</item>
+        <item>L4_U4</item>
+
+
+    </string-array>
+</resources>

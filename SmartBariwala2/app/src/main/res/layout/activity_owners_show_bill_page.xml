@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OwnersShowBillPage"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    >
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/house"
+        android:layout_marginBottom="30dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Showing Bills"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/monthView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="30dp"
+        android:layout_marginBottom="20dp"
+        />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="41dp"
+            android:text="Date: "
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/dateShow"
+            android:layout_width="140dp"
+            android:layout_height="41dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="41dp"
+            android:text="Gas Bill: "
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/gasBillShow"
+            android:layout_width="140dp"
+            android:layout_height="41dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="41dp"
+            android:text="House Bill: "
+            android:textSize="20dp"
+
+            />
+
+        <TextView
+            android:id="@+id/houseBillShow"
+            android:layout_width="140dp"
+            android:layout_height="41dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="41dp"
+            android:text="Electric Bill: "
+            android:textSize="22dp"
+            />
+
+        <TextView
+            android:id="@+id/electricBillShow"
+            android:layout_width="140dp"
+            android:layout_height="41dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="41dp"
+            android:text="Other Bill: "
+            android:textSize="22dp"
+            />
+
+        <TextView
+            android:id="@+id/otherBillShow"
+            android:layout_width="140dp"
+            android:layout_height="41dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="41dp"
+            android:text="Total Bill: "
+            android:textSize="22dp"
+            />
+
+        <TextView
+            android:id="@+id/totalBillShow"
+            android:layout_width="140dp"
+            android:layout_height="41dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

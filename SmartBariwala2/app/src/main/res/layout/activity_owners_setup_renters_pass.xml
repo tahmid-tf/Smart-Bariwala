@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OwnersSetupRentersPass"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           >
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               >
+
+               <TextView
+                   android:text="Password for l1 u1: "
+                   android:layout_width="150dp"
+                   android:layout_height="wrap_content"
+                   android:textSize="17dp"
+                   android:layout_marginRight="20dp"
+                   />
+
+               <EditText
+                   android:id="@+id/l1u1"
+                   android:layout_width="150dp"
+                   android:layout_height="wrap_content"
+                   android:textSize="17dp"
+                   android:gravity="center"
+                   android:editable="false"
+                   />
+
+           </LinearLayout>
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               >
+
+               <TextView
+                   android:text="Password for l1 u2: "
+                   android:layout_width="150dp"
+                   android:layout_height="wrap_content"
+                   android:textSize="17dp"
+                   android:layout_marginRight="20dp"
+                   />
+
+               <EditText
+                   android:id="@+id/l1u2"
+                   android:layout_width="150dp"
+                   android:layout_height="wrap_content"
+                   android:textSize="17dp"
+                   android:gravity="center"
+                   android:editable="false"
+                   />
+
+           </LinearLayout>
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               >
+
+               <TextView
+                   android:text="Password for l1 u3: "
+                   android:layout_width="150dp"
+                   android:layout_height="wrap_content"
+                   android:textSize="17dp"
+                   android:layout_marginRight="20dp"
+                   />
+
+               <EditText
+                   android:id="@+id/l1u3"
+                   android:layout_width="150dp"
+                   android:layout_height="wrap_content"
+                   android:textSize="17dp"
+                   android:gravity="center"
+                   android:editable="false"
+                   />
+
+           </LinearLayout>
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               >
+
+               <TextView
+                   android:text="Password for l1 u4: "
+                   android:layout_width="150dp"
+                   android:layout_height="wrap_content"
+                   android:textSize="17dp"
+                   android:layout_marginRight="20dp"
+                   />
+
+               <EditText
+                   android:id="@+id/l1u4"
+                   android:layout_width="150dp"
+                   android:layout_height="wrap_content"
+                   android:textSize="17dp"
+                   android:gravity="center"
+                   android:editable="false"
+                   />
+
+           </LinearLayout>
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               >
+
+               <TextView
+                   android:text="Password for l2 u1: "
+                   android:layout_width="150dp"
+                   android:layout_height="wrap_content"
+                   android:textSize="17dp"
+                   android:layout_marginRight="20dp"
+                   />
+
+               <EditText
+                   android:id="@+id/l2u1"
+                   android:layout_width="150dp"
+                   android:layout_height="wrap_content"
+                   android:textSize="17dp"
+                   android:gravity="center"
+                   android:editable="false"
+                   />
+
+           </LinearLayout>
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               >
+
+               <TextView
+                   android:text="Password for l2 u2: "
+                   android:layout_width="150dp"
+                   android:layout_height="wrap_content"
+                   android:textSize="17dp"
+                   android:layout_marginRight="20dp"
+                   />
+
+               <EditText
+                   android:id="@+id/l2u2"
+                   android:layout_width="150dp"
+                   android:layout_height="wrap_content"
+                   android:textSize="17dp"
+                   android:gravity="center"
+                   android:editable="false"
+                   />
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               >
+
+               <TextView
+                   android:text="Password for l2 u3: "
+                   android:layout_width="150dp"
+                   android:layout_height="wrap_content"
+                   android:textSize="17dp"
+                   android:layout_marginRight="20dp"
+                   />
+
+               <EditText
+                   android:id="@+id/l2u3"
+                   android:layout_width="150dp"
+                   android:layout_height="wrap_content"
+                   android:textSize="17dp"
+                   android:gravity="center"
+                   android:editable="false"
+                   />
+
+           </LinearLayout>
+
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               >
+
+               <TextView
+                   android:text="Password for l2 u4: "
+                   android:layout_width="150dp"
+                   android:layout_height="wrap_content"
+                   android:textSize="17dp"
+                   android:layout_marginRight="20dp"
+                   />
+
+               <EditText
+                   android:id="@+id/l2u4"
+                   android:layout_width="150dp"
+                   android:layout_height="wrap_content"
+                   android:textSize="17dp"
+                   android:gravity="center"
+                   android:editable="false"
+                   />
+
+           </LinearLayout>
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               >
+
+               <TextView
+                   android:text="Password for l3 u1: "
+                   android:layout_width="150dp"
+                   android:layout_height="wrap_content"
+                   android:textSize="17dp"
+                   android:layout_marginRight="20dp"
+                   />
+
+               <EditText
+                   android:id="@+id/l3u1"
+                   android:layout_width="150dp"
+                   android:layout_height="wrap_content"
+                   android:textSize="17dp"
+                   android:gravity="center"
+                   android:editable="false"
+                   />
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               >
+
+               <TextView
+                   android:text="Password for l3 u2: "
+                   android:layout_width="150dp"
+                   android:layout_height="wrap_content"
+                   android:textSize="17dp"
+                   android:layout_marginRight="20dp"
+                   />
+
+               <EditText
+                   android:id="@+id/l3u2"
+                   android:layout_width="150dp"
+                   android:layout_height="wrap_content"
+                   android:textSize="17dp"
+                   android:gravity="center"
+                   android:editable="false"
+                   />
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               >
+
+               <TextView
+                   android:text="Password for l3 u3: "
+                   android:layout_width="150dp"
+                   android:layout_height="wrap_content"
+                   android:textSize="17dp"
+                   android:layout_marginRight="20dp"
+                   />
+
+               <EditText
+                   android:id="@+id/l3u3"
+                   android:layout_width="150dp"
+                   android:layout_height="wrap_content"
+                   android:textSize="17dp"
+                   android:gravity="center"
+                   android:editable="false"
+                   />
+
+           </LinearLayout>
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               >
+
+               <TextView
+                   android:text="Password for l3 u4: "
+                   android:layout_width="150dp"
+                   android:layout_height="wrap_content"
+                   android:textSize="17dp"
+                   android:layout_marginRight="20dp"
+                   />
+
+               <EditText
+                   android:id="@+id/l3u4"
+                   android:layout_width="150dp"
+                   android:layout_height="wrap_content"
+                   android:textSize="17dp"
+                   android:gravity="center"
+                   android:editable="false"
+                   />
+
+           </LinearLayout>
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               >
+
+               <TextView
+                   android:text="Password for l4 u1: "
+                   android:layout_width="150dp"
+                   android:layout_height="wrap_content"
+                   android:textSize="17dp"
+                   android:layout_marginRight="20dp"
+                   />
+
+               <EditText
+                   android:id="@+id/l4u1"
+                   android:layout_width="150dp"
+                   android:layout_height="wrap_content"
+                   android:textSize="17dp"
+                   android:gravity="center"
+                   android:editable="false"
+                   />
+
+           </LinearLayout>
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               >
+
+               <TextView
+                   android:text="Password for l4 u2: "
+                   android:layout_width="150dp"
+                   android:layout_height="wrap_content"
+                   android:textSize="17dp"
+                   android:layout_marginRight="20dp"
+                   />
+
+               <EditText
+                   android:id="@+id/l4u2"
+                   android:layout_width="150dp"
+                   android:layout_height="wrap_content"
+                   android:textSize="17dp"
+                   android:gravity="center"
+                   android:editable="false"
+                   />
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               >
+
+               <TextView
+                   android:text="Password for l4 u3: "
+                   android:layout_width="150dp"
+                   android:layout_height="wrap_content"
+                   android:textSize="17dp"
+                   android:layout_marginRight="20dp"
+                   />
+
+               <EditText
+                   android:id="@+id/l4u3"
+                   android:layout_width="150dp"
+                   android:layout_height="wrap_content"
+                   android:textSize="17dp"
+                   android:gravity="center"
+                   android:editable="false"
+                   />
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               >
+
+               <TextView
+                   android:text="Password for l4 u4: "
+                   android:layout_width="150dp"
+                   android:layout_height="wrap_content"
+                   android:textSize="17dp"
+                   android:layout_marginRight="20dp"
+                   />
+
+               <EditText
+                   android:id="@+id/l4u4"
+                   android:layout_width="150dp"
+                   android:layout_height="wrap_content"
+                   android:textSize="17dp"
+                   android:gravity="center"
+                   android:editable="false"
+                   />
+
+
+           </LinearLayout>
+
+           <Button
+               android:id="@+id/passSetButton"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Set Password"
+               style="@style/Widget.AppCompat.Button.Colored"
+               />
+
+
+       </LinearLayout>
+
+
+   </ScrollView>
+
+
+
+</LinearLayout>

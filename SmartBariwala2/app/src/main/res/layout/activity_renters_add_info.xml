@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RentersAddInfo"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/house"
+        android:layout_marginBottom="20dp"
+        />
+
+    <EditText
+        android:id="@+id/rentersAddDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        />
+
+    <EditText
+        android:id="@+id/rentersAddUnit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        />
+
+    <EditText
+        android:id="@+id/rentersName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your name Here"
+        />
+
+    <EditText
+        android:id="@+id/rentersMoblie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your mobile number here"
+
+        />
+
+    <EditText
+        android:id="@+id/rentersFamily"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your family member info"
+
+        />
+
+    <EditText
+        android:id="@+id/rentersShortDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Write some short description about yours"
+
+        />
+
+    <Button
+        android:id="@+id/submitInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="Submit"
+        />
+
+
+</LinearLayout>

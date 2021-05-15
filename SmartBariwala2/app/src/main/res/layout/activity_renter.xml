@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RenterActivity"
+    android:orientation="vertical"
+    android:weightSum="2"
+    android:gravity="center"
+    android:padding="15dp"
+    >
+
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/house"
+            />
+
+        <EditText
+            android:id="@+id/renterIdSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter owner's number"
+            android:textAlignment="center"
+            android:inputType="number"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/colorPrimaryDark"
+            />
+
+        <EditText
+            android:id="@+id/renterPasswordSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Password given by owner"
+            android:textAlignment="center"
+            android:inputType="numberPassword"
+            android:layout_marginTop="25dp"
+            android:backgroundTint="@color/colorPrimaryDark"
+            />
+
+
+        <SearchView
+            android:layout_marginTop="30dp"
+            android:id="@+id/searchRent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </SearchView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="25dp"
+            >
+
+            <EditText
+                android:id="@+id/rentersSpinner"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="Unit"
+                android:textAlignment="center"
+                android:inputType="text"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:editable="false"
+                />
+
+            <Spinner
+                android:id="@+id/renterSpinners"
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                ></Spinner>
+
+            <Button
+                android:id="@+id/spinnerSelected"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="Set "
+                android:textAllCaps="false"
+                style="@style/Widget.AppCompat.Button.Colored"
+
+                />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/renterButtonSignIn"
+            android:layout_marginTop="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:textAllCaps="false"
+            android:background="#008000"
+            android:textColor="#FFFFFF"
+
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

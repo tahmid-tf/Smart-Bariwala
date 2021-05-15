@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OwnersAddTolet"
+    android:gravity="center"
+    android:padding="10dp"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Post Your Advertisement"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"
+        />
+
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:hint="Date"
+        />
+
+    <EditText
+        android:id="@+id/ownersName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type your name"
+        />
+
+    <EditText
+        android:id="@+id/ownersLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type your Location [Example:  Mirpur]"
+        />
+
+    <EditText
+        android:id="@+id/ownersAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type your Address"
+        />
+
+    <EditText
+        android:id="@+id/ownersHomeInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Desscription"
+        />
+
+    <Button
+        android:id="@+id/postAdvertisement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Post Advertisement"
+        android:textAllCaps="false"
+        style="@style/Widget.AppCompat.Button.Colored"
+        />
+
+
+
+</LinearLayout>

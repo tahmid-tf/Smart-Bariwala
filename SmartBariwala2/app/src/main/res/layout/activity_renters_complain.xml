@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RentersComplain"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="15dp"
+    >
+
+    <ImageView
+        android:id="@+id/imageId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/house"
+        android:paddingBottom="40dp"
+        />
+
+    <EditText
+        android:id="@+id/ownersNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:visibility="gone"
+        />
+
+    <EditText
+        android:id="@+id/dateComplain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Date"
+        android:editable="false"
+        />
+
+    <EditText
+        android:id="@+id/unitComplain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter renters Unit"
+        android:editable="false"
+        />
+
+
+    <EditText
+        android:id="@+id/complainDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="write your Complain"
+        />
+
+    <Button
+        android:id="@+id/addRentersComplain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="Send"
+        />
+
+</LinearLayout>

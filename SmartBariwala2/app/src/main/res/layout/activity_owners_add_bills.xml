@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OwnersAddBills"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:layout_gravity="center"
+    android:weightSum="1"
+    >
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/house"
+            />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            >
+
+            <EditText
+                android:id="@+id/ownresNumber"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="Owners Number"
+                android:editable="false"
+                />
+
+            <SearchView
+                android:id="@+id/searchFlat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:queryHint="Click Here for a quick search"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                >
+            </SearchView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Unit"
+                android:textSize="20dp"
+                android:editable="false"
+                />
+
+            <Spinner
+                android:id="@+id/monthSpinner"
+                android:layout_width="130dp"
+                android:layout_marginLeft="30dp"
+                android:layout_height="match_parent">
+
+            </Spinner>
+
+            <Button
+                android:id="@+id/spinnerButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Set"
+                android:textAllCaps="false"
+                android:background="#3F51B5"
+                android:textColor="#FFFFFF"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:textSize="20dp"
+                />
+
+            <EditText
+                android:id="@+id/dateSet"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:editable="false"
+                />
+
+            <Button
+                android:id="@+id/dateSetButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Set"
+                android:textAllCaps="false"
+                android:background="#3F51B5"
+                android:textColor="#FFFFFF"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/houseBill"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="House Bill: "
+                android:textSize="20dp"
+                />
+
+            <EditText
+                android:id="@+id/houseEditText"
+                android:layout_width="140dp"
+                android:layout_height="41dp"
+                android:layout_marginLeft="20dp"
+                android:inputType="numberDecimal"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/gaseBill"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gass Bill: "
+                android:textSize="20dp"
+                />
+
+            <EditText
+                android:id="@+id/gassEditText"
+                android:layout_width="140dp"
+                android:layout_height="41dp"
+                android:layout_marginLeft="20dp"
+                android:inputType="numberDecimal"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/electricBill"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Electric Bill: "
+                android:textSize="20dp"
+                />
+
+            <EditText
+                android:id="@+id/electricEditText"
+                android:layout_width="140dp"
+                android:layout_height="41dp"
+                android:layout_marginLeft="20dp"
+                android:inputType="numberDecimal"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/otherBill"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Other Bill: "
+                android:textSize="20dp"
+                />
+
+            <EditText
+                android:id="@+id/otherEditText"
+                android:layout_width="140dp"
+                android:layout_height="41dp"
+                android:layout_marginLeft="20dp"
+                android:inputType="numberDecimal"
+                />
+
+        </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/submitBill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Submit Bill"
+            android:textAllCaps="false"
+            style="@style/Widget.AppCompat.Button.Colored"
+            />
+
+
+    </LinearLayout>
+
+</ScrollView>

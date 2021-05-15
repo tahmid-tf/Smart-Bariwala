@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OwnersMainPage"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="1"
+    >
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/house"
+            android:layout_marginBottom="40dp"
+            />
+
+        <Button
+            android:id="@+id/addBills"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Add Bills"
+            android:textAllCaps="false"
+            style="@style/Widget.AppCompat.Button.Colored"
+            />
+
+        <Button
+            android:id="@+id/showBills"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Show Bills"
+            android:textAllCaps="false"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_marginTop="5dp"
+            />
+
+        <Button
+            android:id="@+id/emargencyMessage"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Emargency Message"
+            android:textAllCaps="false"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_marginTop="5dp"
+            />
+
+        <Button
+            android:id="@+id/tolet"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="To-Let Advertisement"
+            android:textAllCaps="false"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_marginTop="5dp"
+            />
+
+        <Button
+            android:id="@+id/showRentersComplain"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Renters Complain"
+            android:textAllCaps="false"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_marginTop="5dp"
+
+            />
+
+        <Button
+            android:id="@+id/clearRentersComplain"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Clear Renters Complain"
+            android:textAllCaps="false"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_marginTop="5dp"
+
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

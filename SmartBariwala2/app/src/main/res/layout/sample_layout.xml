@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:id="@+id/dateTextViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:id="@+id/ownersLocationTextViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:id="@+id/ownersNameTextViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:id="@+id/ownersHomeInfoTextViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:id="@+id/ownersAddressTextViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
